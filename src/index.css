@@ -167,7 +167,7 @@ html {
   top: 20px;
   left: 50%;
   transform: translateX(-50%) translateY(-30px);
-  z-index: 1000;
+  z-index: 9999;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -374,10 +374,6 @@ body.dark-mode .moon-icon {
   min-height: calc(100vh - 80px);
   /* Height is viewport minus navbar */
   /* This ensures the section effectively starts BELOW the navbar */
-  background-color: var(--bg-color);
-  /* Ensure each section has its own background to prevent content bleed-through */
-  isolation: isolate;
-  /* Create a new stacking context for each section */
 }
 
 #contact.section {
