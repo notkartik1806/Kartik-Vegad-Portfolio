@@ -374,6 +374,8 @@ body.dark-mode .moon-icon {
   min-height: calc(100vh - 80px);
   /* Height is viewport minus navbar */
   /* This ensures the section effectively starts BELOW the navbar */
+  margin-bottom: 15vh;
+  /* Add significant spacing between sections */
 }
 
 #contact.section {
