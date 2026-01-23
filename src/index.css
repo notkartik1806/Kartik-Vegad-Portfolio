@@ -979,17 +979,14 @@ body.dark-mode .social-link:hover .social-icon {
     margin-bottom: 10px;
     overflow: hidden;
     background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
   }
 
   .card-image img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    /* Absolutely no distortion */
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
   }
 
   .about-content-wrapper {
@@ -1005,6 +1002,10 @@ body.dark-mode .social-link:hover .social-icon {
     width: 180px;
     height: 230px;
     border-radius: 25px;
+  }
+
+  .profile-photo {
+    border-radius: 17px;
   }
 
   .social-links {
