@@ -367,9 +367,9 @@ body.dark-mode .moon-icon {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 72px 20px 20px;
-  scroll-margin-top: 72px;
-  /* Balanced centering: Space(Nav->Title) == Space(SectionEnd->Bottom) */
+  padding: 72px 20px 0;
+  scroll-margin-top: 0;
+  /* Fixed: scroll-margin-top was pushing the section down. Now it starts at viewport top. */
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.8s ease, transform 0.8s ease;
