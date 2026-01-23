@@ -366,9 +366,10 @@ body.dark-mode .moon-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 110px 20px 30px;
-  /* Increased top, decreased bottom for visual symmetry with navbar */
+  justify-content: flex-start;
+  padding: 150px 20px 60px;
+  scroll-margin-top: 20px;
+  /* Increased top padding for breathing room below fixed navbar */
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.8s ease;
@@ -397,8 +398,8 @@ body.dark-mode .moon-icon {
   font-family: "Zetan", serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
   font-weight: 400;
-  margin-bottom: 10px;
-  /* Reduced margin-bottom */
+  margin-bottom: 40px;
+  /* Increased margin-bottom for better spacing */
   color: var(--text-color);
   letter-spacing: 0.05em;
   text-align: center;
@@ -913,7 +914,8 @@ body.dark-mode .social-link:hover .social-icon {
   }
 
   .section {
-    padding: 90px 20px 30px;
+    padding: 130px 20px 40px;
+    justify-content: flex-start;
   }
 
   .section-title {

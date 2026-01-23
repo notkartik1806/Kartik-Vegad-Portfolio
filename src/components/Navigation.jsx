@@ -42,7 +42,7 @@ const Navigation = () => {
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
         setIsMenuOpen(false); // Close menu on mobile after click
     };
