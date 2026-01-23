@@ -367,9 +367,12 @@ body.dark-mode .moon-icon {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 72px 20px 20px;
+  padding: 72px 20px;
+  /* Perfectly balanced: Top(Navbar) == Bottom(Buffer) */
   scroll-margin-top: 72px;
-  /* Balanced centering: Space(Nav->Title) == Space(SectionEnd->Bottom) */
+  min-height: 100vh;
+  box-sizing: border-box;
+  /* Mathematically centered in the remaining viewport space */
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.8s ease;
