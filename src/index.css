@@ -1094,7 +1094,7 @@ body.dark-mode .social-link:hover .social-icon {
 }
 
 .section.in-view .section-btn {
-  animation: bounceIn 0.8s ease 1.0s forwards;
+  animation: bounceIn 0.5s ease 0.5s forwards;
 }
 
 /* Projects Grid Animations */
