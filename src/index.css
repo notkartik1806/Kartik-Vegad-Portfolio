@@ -403,6 +403,9 @@ body.dark-mode .moon-icon {
   text-align: center;
   opacity: 0;
   transform: translateY(40px);
+}
+
+.section.in-view .section-title {
   animation: fadeInUp 1s ease forwards;
 }
 
@@ -488,6 +491,9 @@ body.dark-mode .moon-icon {
   justify-content: center;
   align-items: flex-start;
   opacity: 0;
+}
+
+.section.in-view .photo-container {
   animation: slideInLeft 0.8s ease 0.3s forwards;
 }
 
@@ -522,6 +528,9 @@ body.dark-mode .moon-icon {
   flex-direction: column;
   justify-content: flex-start;
   opacity: 0;
+}
+
+.section.in-view .about-text-wrapper {
   animation: slideInRight 0.8s ease 0.5s forwards;
 }
 
@@ -536,6 +545,9 @@ body.dark-mode .moon-icon {
 .about-text p {
   margin-bottom: 20px;
   opacity: 0;
+}
+
+.section.in-view .about-text p {
   animation: fadeInUp 0.6s ease forwards;
 }
 
@@ -580,9 +592,12 @@ body.dark-mode .moon-icon {
   transition: all 0.3s ease;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   opacity: 0;
-  animation: bounceIn 0.8s ease 1.3s forwards;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+.section.in-view .resume-btn {
+  animation: bounceIn 0.8s ease 1.3s forwards;
 }
 
 .resume-btn:hover {
@@ -611,7 +626,6 @@ body.dark-mode .moon-icon {
   cursor: pointer;
   opacity: 0;
   transform: translateY(30px);
-  animation: fadeInUp 0.6s ease forwards;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -622,6 +636,10 @@ body.dark-mode .moon-icon {
   width: 100%;
   margin: 0 auto;
   /* Center when stacked */
+}
+
+.section.in-view .card {
+  animation: fadeInUp 0.6s ease forwards;
 }
 
 .card:nth-child(1) {
@@ -712,6 +730,9 @@ body.dark-mode .moon-icon {
   margin-bottom: 50px;
   opacity: 0;
   transform: translateY(30px);
+}
+
+.section.in-view .contact-description {
   animation: fadeInUp 0.8s ease 0.3s forwards;
 }
 
@@ -738,6 +759,9 @@ body.dark-mode .moon-icon {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   opacity: 0;
   transform: translateY(30px) scale(0.8);
+}
+
+.section.in-view .social-link {
   animation: bounceIn 0.6s ease forwards;
 }
 
@@ -1061,6 +1085,9 @@ body.dark-mode .social-link:hover .social-icon {
 /* Section Button Animations */
 .section-btn {
   opacity: 0;
+}
+
+.section.in-view .section-btn {
   animation: bounceIn 0.8s ease 1.0s forwards;
 }
 
