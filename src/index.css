@@ -372,7 +372,7 @@ body.dark-mode .moon-icon {
   /* Balanced centering: Space(Nav->Title) == Space(SectionEnd->Bottom) */
   opacity: 0;
   transform: translateY(50px);
-  transition: all 0.8s ease;
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 #contact.section {
