@@ -381,6 +381,9 @@ body.dark-mode .moon-icon {
 #contact.section {
   padding: 60px 20px 40px;
   /* Preserve original spacing for contact section */
+  margin-bottom: 0;
+  min-height: calc(100vh - 80px);
+  /* Ensure it fills the screen but doesn't overflow */
 }
 
 .section-container {
