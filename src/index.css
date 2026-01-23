@@ -398,8 +398,8 @@ body.dark-mode .moon-icon {
   font-family: "Zetan", serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
   font-weight: 400;
-  margin-bottom: 40px;
-  /* Increased margin-bottom for better spacing */
+  margin-bottom: 20px;
+  /* Reduced margin-bottom to fit content in frame */
   color: var(--text-color);
   letter-spacing: 0.05em;
   text-align: center;
@@ -481,8 +481,8 @@ body.dark-mode .moon-icon {
   align-items: flex-start;
   max-width: 1000px;
   width: 100%;
-  margin-bottom: 40px;
-  /* Reduced margin-bottom */
+  margin-bottom: 20px;
+  /* Reduced margin-bottom to fit content in frame */
 }
 
 .photo-container {
