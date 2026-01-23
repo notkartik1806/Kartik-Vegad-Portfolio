@@ -18,8 +18,8 @@ const Contact = () => {
                 <h2 className="section-title">Contact & Connect</h2>
                 <p className="contact-description">Let's work together! Reach out for collaborations and opportunities.</p>
 
-                <div className="social-links">
-                    {socialLinks.map((link) => (
+                <div className="social-links contact-social-links">
+                    {socialLinks.map((link, index) => (
                         <a
                             key={link.name}
                             href={link.url}
@@ -27,6 +27,7 @@ const Contact = () => {
                             className="social-link"
                             aria-label={link.name}
                             rel="noopener noreferrer"
+                            style={{ animationDelay: `${0.5 + index * 0.1}s` }}
                         >
                             <img src={link.icon} alt={link.name} className="social-icon" />
                         </a>

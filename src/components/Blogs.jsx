@@ -3,7 +3,7 @@ const Blogs = () => {
         <section id="blogs" className="section">
             <div className="section-container">
                 <h2 className="section-title">Blogs</h2>
-                <div className="cards-grid">
+                <div className="cards-grid blogs-grid">
                     <a href="https://medium.com/@kartikvegad1806/design-principles-edition-i-fce1cc59d5f1" className="card-link" target="_blank" rel="noopener noreferrer">
                         <div className="card">
                             <div className="card-image">
@@ -39,7 +39,7 @@ const Blogs = () => {
                     </div>
                 </div>
                 <div className="section-btn-container">
-                    <a href="https://medium.com/@kartikvegad1806" target="_blank" rel="noopener noreferrer" className="primary-btn">Read More Blogs</a>
+                    <a href="https://medium.com/@kartikvegad1806" target="_blank" rel="noopener noreferrer" className="primary-btn section-btn">Read More Blogs</a>
                 </div>
             </div>
         </section>

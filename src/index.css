@@ -161,6 +161,22 @@ html {
   }
 }
 
+/* Navbar Fade Overlay - Creates smooth gradient above navbar */
+.nav-fade-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom,
+      var(--bg-color) 0%,
+      var(--bg-color) 40%,
+      transparent 100%);
+  z-index: 9998;
+  pointer-events: none;
+  transition: background 0.2s ease-in-out;
+}
+
 /* Glass Navigation Bar */
 .nav-wrapper {
   position: fixed;
@@ -1054,6 +1070,74 @@ body.dark-mode .social-link:hover .social-icon {
   color: var(--text-color);
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Button Animations */
+.section-btn {
+  opacity: 0;
+  animation: bounceIn 0.8s ease 1.0s forwards;
+}
+
+/* Projects Grid Animations */
+.projects-grid .card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.projects-grid .card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.projects-grid .card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.projects-grid .card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Case Studies Grid Animations */
+.case-studies-grid .card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.case-studies-grid .card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.case-studies-grid .card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.case-studies-grid .card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Blogs Grid Animations */
+.blogs-grid .card:nth-child(1),
+.blogs-grid .card-link:nth-child(1) .card {
+  animation-delay: 0.2s;
+}
+
+.blogs-grid .card:nth-child(2),
+.blogs-grid .card-link:nth-child(2) .card {
+  animation-delay: 0.4s;
+}
+
+.blogs-grid .card:nth-child(3),
+.blogs-grid .card-link:nth-child(3) .card {
+  animation-delay: 0.6s;
+}
+
+.blogs-grid .card:nth-child(4),
+.blogs-grid .card-link:nth-child(4) .card {
+  animation-delay: 0.8s;
+}
+
+/* Contact Social Links Animations - already have inline animation delays */
+.contact-social-links .social-link {
+  opacity: 0;
+  transform: translateY(30px) scale(0.8);
+  animation: bounceIn 0.6s ease forwards;
 }
 
 /* Font Faces */

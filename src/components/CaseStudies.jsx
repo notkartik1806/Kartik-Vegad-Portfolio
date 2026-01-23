@@ -3,7 +3,7 @@ const CaseStudies = () => {
         <section id="case-studies" className="section">
             <div className="section-container">
                 <h2 className="section-title">Case Studies</h2>
-                <div className="cards-grid">
+                <div className="cards-grid case-studies-grid">
                     <div className="card">
                         <div className="card-image">
                             <img src={`${import.meta.env.BASE_URL}images/examplary.png`} alt="SaaS Dashboard Redesign" />
@@ -34,7 +34,7 @@ const CaseStudies = () => {
                     </div>
                 </div>
                 <div className="section-btn-container">
-                    <a href="#case-studies" className="primary-btn">View All Case Studies</a>
+                    <a href="#case-studies" className="primary-btn section-btn">View All Case Studies</a>
                 </div>
             </div>
         </section>
