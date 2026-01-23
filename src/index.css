@@ -367,9 +367,10 @@ body.dark-mode .moon-icon {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
-  scroll-margin-top: 100px;
-  /* Pure centering logic with nav-bar offset */
+  padding: 80px 20px 0;
+  /* Offset for navbar to make it FEEL centered */
+  scroll-margin-top: 60px;
+  /* Visual centering logic: accounts for fixed navbar weight */
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.8s ease;
