@@ -1027,11 +1027,11 @@ body.dark-mode .social-link:hover .social-icon {
 
 @media (max-width: 480px) {
   .name {
-    font-size: clamp(2rem, 10vw, 3.5rem);
+    font-size: clamp(3.5rem, 16vw, 5.5rem);
   }
 
   .section-title {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
 
   .nav-links {
