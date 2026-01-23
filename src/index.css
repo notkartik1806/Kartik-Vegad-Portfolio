@@ -1061,7 +1061,7 @@ body.dark-mode .social-link:hover .social-icon {
 /* Font Faces */
 @font-face {
   font-family: 'Zetan';
-  src: url('./fonts/Zetan.ttf') format('truetype');
+  src: url('./assets/fonts/Zetan.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
