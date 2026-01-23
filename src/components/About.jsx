@@ -11,7 +11,7 @@ const About = () => {
         }, 150);
 
         const link = document.createElement('a');
-        link.href = "/Resume - Kartik Vegad.pdf"; // Absolute path from public
+        link.href = `${import.meta.env.BASE_URL}Resume - Kartik Vegad.pdf`;
         link.download = "Kartik_Vegad_Resume.pdf";
         document.body.appendChild(link);
         link.click();
@@ -25,7 +25,7 @@ const About = () => {
                 <div className="about-content-wrapper">
                     <div className="photo-container">
                         <div className="photo-frame">
-                            <img src="/images/kk.png" alt="Kartik Vegad" className="profile-photo" />
+                            <img src={`${import.meta.env.BASE_URL}images/kk.png`} alt="Kartik Vegad" className="profile-photo" />
                         </div>
                     </div>
 
