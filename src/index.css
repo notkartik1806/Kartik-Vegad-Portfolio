@@ -366,10 +366,10 @@ body.dark-mode .moon-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  padding: 150px 20px 60px;
-  scroll-margin-top: 20px;
-  /* Increased top padding for breathing room below fixed navbar */
+  justify-content: center;
+  padding: 120px 20px 80px;
+  scroll-margin-top: 80px;
+  /* Balanced padding for vertical centering while respecting fixed navbar */
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.8s ease;
@@ -914,8 +914,8 @@ body.dark-mode .social-link:hover .social-icon {
   }
 
   .section {
-    padding: 130px 20px 40px;
-    justify-content: flex-start;
+    padding: 100px 20px 40px;
+    justify-content: center;
   }
 
   .section-title {
