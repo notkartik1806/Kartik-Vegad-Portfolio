@@ -161,22 +161,6 @@ html {
   }
 }
 
-/* Navbar Fade Overlay - Creates smooth gradient above navbar */
-.nav-fade-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 120px;
-  background: linear-gradient(to bottom,
-      var(--bg-color) 0%,
-      var(--bg-color) 40%,
-      transparent 100%);
-  z-index: 9998;
-  pointer-events: none;
-  transition: background 0.2s ease-in-out;
-}
-
 /* Glass Navigation Bar */
 .nav-wrapper {
   position: fixed;
