@@ -138,7 +138,7 @@ html {
 }
 
 .name {
-  font-family: "Zetan", serif;
+  font-family: "Surgena", serif;
   font-size: clamp(4rem, 12vw, 8rem);
   font-weight: 400;
   color: var(--text-color);
@@ -396,7 +396,7 @@ body.dark-mode .moon-icon {
 }
 
 .section-title {
-  font-family: "Zetan", serif;
+  font-family: "Surgena", serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
   font-weight: 400;
   margin-bottom: 20px;
@@ -1163,6 +1163,12 @@ body.dark-mode .social-link:hover .social-icon {
 @font-face {
   font-family: 'Zetan';
   src: url('./assets/fonts/Zetan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Surgena';
+  src: url('./assets/fonts/Surgena.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
