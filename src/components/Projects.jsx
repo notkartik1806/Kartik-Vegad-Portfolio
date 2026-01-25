@@ -10,7 +10,7 @@ const Projects = () => {
                                 <img src={`${import.meta.env.BASE_URL}images/ProjectDot.png`} alt="DOT" />
                             </div>
                             <h3 className="card-title">DOT.</h3>
-                            <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions.</p>
+                            <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions. And I am the FOUNDER of it.</p>
                         </div>
                     </a>
                     <div className="card">
