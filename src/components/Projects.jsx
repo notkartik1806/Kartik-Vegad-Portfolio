@@ -6,11 +6,11 @@ const Projects = () => {
                 <div className="cards-grid projects-grid">
                     <div className="card">
                         <div className="card-image">
-                            <img src={"public/images/ProjectDot.png"} alt="DOT" />
+                            <img src={`${import.meta.env.BASE_URL}images/ProjectDot.png`} alt="DOT" />
                         </div>
-                        <a href="https://dot-site.vercel.app/" target="_blank" rel="noopener noreferrer"></a>
                         <h3 className="card-title">DOT.</h3>
                         <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions.</p>
+                        <a href="https://dot-site.vercel.app/" target="_blank" rel="noopener noreferrer"></a>
                     </div>
                     <div className="card">
                         <div className="card-image">
