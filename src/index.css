@@ -1168,7 +1168,7 @@ body.dark-mode .social-link:hover .social-icon {
 }
 @font-face {
   font-family: 'Surgena';
-  src: url('./assets/fonts/Surgena.ttf') format('truetype');
+  src: url('src/assets/fonts/surgena.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
