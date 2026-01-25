@@ -20,7 +20,7 @@ const Landing = () => {
             setTimeout(() => {
                 landingSection.style.transform = 'scale(1)';
                 landingSection.style.opacity = '1';
-            }, 800);
+            }, 400);
         }
     };
 
