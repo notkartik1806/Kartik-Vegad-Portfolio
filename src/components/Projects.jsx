@@ -10,7 +10,7 @@ const Projects = () => {
                         </div>
                         <a href="https://dot-site.vercel.app/" target="_blank" rel="noopener noreferrer"></a>
                         <h3 className="card-title">DOT.</h3>
-                        <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions.</p>
+                        <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions. AND I AM THE FOUNDER OF IT. ;)</p>
                     </div>
                     <div className="card">
                         <div className="card-image">
