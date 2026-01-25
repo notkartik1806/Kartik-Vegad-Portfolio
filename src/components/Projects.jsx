@@ -4,14 +4,15 @@ const Projects = () => {
             <div className="section-container">
                 <h2 className="section-title">Projects</h2>
                 <div className="cards-grid projects-grid">
-                    <div className="card">
-                        <div className="card-image">
-                            <img src={`${import.meta.env.BASE_URL}images/ProjectDot.png`} alt="DOT" />
+                    <a href="https://dot-site.vercel.app/" target="_blank" rel="noopener noreferrer" className="card-link">
+                        <div className="card">
+                            <div className="card-image">
+                                <img src={`${import.meta.env.BASE_URL}images/ProjectDot.png`} alt="DOT" />
+                            </div>
+                            <h3 className="card-title">DOT.</h3>
+                            <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions.</p>
                         </div>
-                        <h3 className="card-title">DOT.</h3>
-                        <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions.</p>
-                        <a href="https://dot-site.vercel.app/" target="_blank" rel="noopener noreferrer"></a>
-                    </div>
+                    </a>
                     <div className="card">
                         <div className="card-image">
                             <img src={`${import.meta.env.BASE_URL}images/examplary.png`} alt="Brand Identity System" />
