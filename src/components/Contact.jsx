@@ -2,7 +2,7 @@ const Contact = () => {
     const socialLinks = [
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/kartikvegad/', icon: `${import.meta.env.BASE_URL}logo/linkedin.svg` },
         { name: 'GitHub', url: 'https://github.com/notkartik1806', icon: `${import.meta.env.BASE_URL}logo/github.svg` },
-        { name: 'Instagram', url: 'https://instagram.com/kkar._.tikk', icon: `${import.meta.env.BASE_URL}logo/insta.svg` },
+        { name: 'Instagram', url: 'https://www.instagram.com/kkar._.tikk/', icon: `${import.meta.env.BASE_URL}logo/insta.svg` },
         { name: 'Cosmos', url: 'https://www.cosmos.so/kartik.18', icon: `${import.meta.env.BASE_URL}logo/cosmos.svg` },
         { name: 'Medium', url: 'https://medium.com/@kartikvegad1806', icon: `${import.meta.env.BASE_URL}logo/medium.svg` },
         { name: 'X', url: 'https://x.com/KartikVegad9', icon: `${import.meta.env.BASE_URL}logo/x.svg` },
