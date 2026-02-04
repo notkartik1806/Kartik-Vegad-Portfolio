@@ -37,8 +37,8 @@ const GridBackground = ({ isDarkMode }) => {
     };
 
     const updateGridPoints = () => {
-      const wobbleRadius = 100;
-      const wobbleStrength = 15;
+      const wobbleRadius = 150;
+      const wobbleStrength = 30;
       const mousePos = mousePosRef.current;
 
       gridPointsRef.current.forEach((point) => {
