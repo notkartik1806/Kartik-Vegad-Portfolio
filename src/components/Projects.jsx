@@ -13,7 +13,7 @@ const Projects = () => {
                             <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions. And I am the FOUNDER of it.</p>
                         </div>
                     </a>
-                    <a href="https://happywinds.in/" target="_blank" rel="noopener noreferrer" className="card-link">
+                    <a href="https://happy-winds.vercel.app/" target="_blank" rel="noopener noreferrer" className="card-link">
                         <div className="card">
                             <div className="card-image">
                                 <img src={`${import.meta.env.BASE_URL}images/ProjectHappywinds.png`} alt="Happywinds" />
