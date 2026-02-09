@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Blogs = () => {
     return (
         <section id="blogs" className="section">
