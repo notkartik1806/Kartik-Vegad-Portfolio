@@ -13,13 +13,18 @@ const Projects = () => {
                             <p className="card-description">DOT. is a modern web focused digital service platform that transforms ideas into scalable interactive web solutions. And I am the FOUNDER of it.</p>
                         </div>
                     </a>
-                    <div className="card">
-                        <div className="card-image">
-                            <img src={`${import.meta.env.BASE_URL}images/examplary.png`} alt="Brand Identity System" />
+                    <a href="https://happywinds.in/" target="_blank" rel="noopener noreferrer" className="card-link">
+                        <div className="card">
+                            <div className="card-image">
+                                <img src={`${import.meta.env.BASE_URL}images/ProjectHappywinds.png`} alt="Happywinds" />
+                            </div>
+                            <h3 className="card-title">Happywinds</h3>
+                            <p className="card-description">
+                                Happywinds is a growing brand with a digital presence built to serve its audience with clarity and trust. I redesigned their website to enhance visual appeal, improve structure and create a more engaging user experience.
+                            </p>
                         </div>
-                        <h3 className="card-title">Brand Identity System</h3>
-                        <p className="card-description">Complete brand identity design including logo, typography, and visual guidelines for a tech startup.</p>
-                    </div>
+                    </a>
+
                     <div className="card">
                         <div className="card-image">
                             <img src={`${import.meta.env.BASE_URL}images/examplary.png`} alt="Mobile App Design" />
