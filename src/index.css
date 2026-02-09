@@ -1054,6 +1054,113 @@ body.dark-mode .social-link:hover .social-icon {
   }
 }
 
+/* Standardized Detailed Grid Layout */
+.detailed-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.detailed-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 30px;
+  background: var(--card-bg);
+  border: 2px solid var(--text-color);
+  border-radius: 35px;
+  padding: 30px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.detailed-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px var(--nav-glass-shadow);
+}
+
+.detailed-card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid var(--text-color);
+}
+
+.detailed-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detailed-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: var(--text-color);
+  color: var(--bg-color);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-family: "Bellota Text", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detailed-card-title {
+  font-family: "Surgena", serif;
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  color: var(--text-color);
+  line-height: 1.2;
+}
+
+.detailed-card-description {
+  font-family: "Bellota Text", cursive;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-color);
+  opacity: 0.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.detailed-card .primary-btn {
+  align-self: flex-start;
+  padding: 10px 25px;
+  font-size: 14px;
+}
+
+@media (max-width: 850px) {
+  .detailed-card {
+    grid-template-columns: 1fr;
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .detailed-card-image {
+    height: 180px;
+  }
+
+  .detailed-card-title {
+    font-size: 1.6rem;
+  }
+}
+
+/* Global Buttons & CTA */
 .section-btn-container {
   display: flex;
   justify-content: center;
@@ -1079,6 +1186,8 @@ body.dark-mode .social-link:hover .social-icon {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .primary-btn:hover {
@@ -1088,7 +1197,6 @@ body.dark-mode .social-link:hover .social-icon {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Section Button Animations */
 .section-btn {
   opacity: 0;
 }
@@ -1097,66 +1205,43 @@ body.dark-mode .social-link:hover .social-icon {
   animation: bounceIn 0.5s ease 0.5s forwards;
 }
 
-/* Projects Grid Animations */
-.projects-grid .card:nth-child(1) {
-  animation-delay: 0.2s;
+/* Page Styles (Standalone Pages) */
+.page-container {
+  min-height: 100vh;
+  padding: 80px 20px 40px;
+  position: relative;
+  z-index: 10;
 }
 
-.projects-grid .card:nth-child(2) {
-  animation-delay: 0.4s;
+.page-header {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  text-align: center;
 }
 
-.projects-grid .card:nth-child(3) {
-  animation-delay: 0.6s;
+.page-container .section-title {
+  opacity: 1 !important;
+  transform: none !important;
+  margin-bottom: 15px;
 }
 
-.projects-grid .card:nth-child(4) {
-  animation-delay: 0.8s;
+.section-subtitle {
+  font-family: "Bellota Text", cursive;
+  font-size: clamp(16px, 4vw, 20px);
+  color: var(--text-color);
+  opacity: 0.7;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-/* Case Studies Grid Animations */
-.case-studies-grid .card:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.case-studies-grid .card:nth-child(2) {
-  animation-delay: 0.4s;
-}
-
-.case-studies-grid .card:nth-child(3) {
-  animation-delay: 0.6s;
-}
-
-.case-studies-grid .card:nth-child(4) {
-  animation-delay: 0.8s;
-}
-
-/* Blogs Grid Animations */
-.blogs-grid .card:nth-child(1),
-.blogs-grid .card-link:nth-child(1) .card {
-  animation-delay: 0.2s;
-}
-
-.blogs-grid .card:nth-child(2),
-.blogs-grid .card-link:nth-child(2) .card {
-  animation-delay: 0.4s;
-}
-
-.blogs-grid .card:nth-child(3),
-.blogs-grid .card-link:nth-child(3) .card {
-  animation-delay: 0.6s;
-}
-
-.blogs-grid .card:nth-child(4),
-.blogs-grid .card-link:nth-child(4) .card {
-  animation-delay: 0.8s;
-}
-
-/* Contact Social Links Animations - already have inline animation delays */
-.contact-social-links .social-link {
-  opacity: 0;
-  transform: translateY(30px) scale(0.8);
-  animation: bounceIn 0.6s ease forwards;
+.coming-soon {
+  display: inline-block;
+  margin-top: 15px;
+  font-family: "Bellota Text", cursive;
+  font-size: 14px;
+  opacity: 0.5;
+  font-style: italic;
 }
 
 /* Font Faces */
