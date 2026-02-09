@@ -41,7 +41,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="section-btn-container">
-                    <a href="#projects" className="primary-btn section-btn">View All Projects</a>
+                    <a href="https://github.com/notkartik1806" className="primary-btn section-btn">View All Projects</a>
                 </div>
             </div>
         </section>
