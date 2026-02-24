@@ -27,10 +27,10 @@ const Blogs = () => {
                     </a>
                     <div className="card">
                         <div className="card-image">
-                            <img src={`${import.meta.env.BASE_URL}images/examplary.png`} alt="UI/UX Insights" />
+                            <img src={`${import.meta.env.BASE_URL}images/blog3.png`} alt="Machine Learning Part I" />
                         </div>
-                        <h3 className="card-title">UI/UX Insights</h3>
-                        <p className="card-description">Deep dives into user interface design and user experience optimization strategies.</p>
+                        <h3 className="card-title">Machine Learning Part I</h3>
+                        <p className="card-description">Understanding what Machine Learning truly means by exploring why traditional rule based programming was not enough and how learning from data changed everything.</p>
                     </div>
                     <div className="card">
                         <div className="card-image">
