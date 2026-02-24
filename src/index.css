@@ -140,7 +140,7 @@ html {
 .name {
   font-family: "Space Grotesk", serif;
   font-size: clamp(4rem, 12vw, 8rem);
-  font-weight: 400;
+  font-weight: 700;
   color: var(--text-color);
   letter-spacing: 0.02em;
   user-select: none;
@@ -274,7 +274,7 @@ html {
   color: var(--text-color);
   font-family: "Space Grotesk", cursive;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 300;
   height: 38px;
   /* (52 - 38) / 2 = 7px even gap */
   display: flex;
@@ -398,7 +398,7 @@ body.dark-mode .moon-icon {
 .section-title {
   font-family: "Space Grotesk", serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 20px;
   /* Reduced margin-bottom to fit content in frame */
   color: var(--text-color);
@@ -590,7 +590,7 @@ body.dark-mode .moon-icon {
   padding: 15px 30px;
   font-family: "Space Grotesk", cursive;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 300;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
@@ -1180,7 +1180,7 @@ body.dark-mode .social-link:hover .social-icon {
   padding: 12px 30px;
   font-family: "Space Grotesk", cursive;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 300;
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
