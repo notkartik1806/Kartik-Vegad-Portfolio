@@ -1254,7 +1254,7 @@ body.dark-mode .social-link:hover .social-icon {
 
 @font-face {
   font-family: 'Space Grotesk';
-  src: url('./assets/fonts/Space Grotesk.ttf') format('truetype');
+  src: url('./assets/fonts/SpaceGrotesk.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
