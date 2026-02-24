@@ -25,6 +25,7 @@ const Blogs = () => {
                             <p className="card-description">Diving into the raw, unrefined aesthetic of brutalist design and its powerful impact on modern digital experiences.</p>
                         </div>
                     </a>
+                    <a href="https://medium.com/@kartikvegad1806/machine-learning-part-i-007b5e44e10c" className="card-link" target="_blank" rel="noopener noreferrer">
                     <div className="card">
                         <div className="card-image">
                             <img src={`${import.meta.env.BASE_URL}images/blog3.png`} alt="Machine Learning Part I" />
@@ -32,6 +33,7 @@ const Blogs = () => {
                         <h3 className="card-title">Machine Learning Part I</h3>
                         <p className="card-description">Understanding what Machine Learning truly means by exploring why traditional rule based programming was not enough and how learning from data changed everything.</p>
                     </div>
+                    </a>
                     <div className="card">
                         <div className="card-image">
                             <img src={`${import.meta.env.BASE_URL}images/examplary.png`} alt="Another Blog" />
