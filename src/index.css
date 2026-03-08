@@ -145,19 +145,26 @@ html {
   letter-spacing: 0.02em;
   user-select: none;
   margin: 0;
-  line-height: 1;
-  animation: fadeInScale 1.2s ease;
+  line-height: 1.1;
+  display: flex;
+  overflow: hidden;
 }
 
-@keyframes fadeInScale {
-  0% {
-    opacity: 0;
-    transform: scale(0.9);
-  }
+.letter {
+  display: inline-block;
+  transform: translateY(-110%);
+  opacity: 0;
+  animation: rollIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
 
+@keyframes rollIn {
+  0% {
+    transform: translateY(-110%);
+    opacity: 0;
+  }
   100% {
+    transform: translateY(0);
     opacity: 1;
-    transform: scale(1);
   }
 }
 
