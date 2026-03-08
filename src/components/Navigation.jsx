@@ -13,7 +13,7 @@ const Navigation = () => {
             setIsVisible(scrollPosition > 100);
 
             // Update active section based on scroll position
-            const sections = ['landing', 'about', 'projects', 'case-studies', 'blogs', 'contact'];
+            const sections = ['landing', 'about', 'projects', 'blogs', 'contact'];
             for (const sectionId of sections) {
                 const element = document.getElementById(sectionId);
                 if (element) {
@@ -76,13 +76,7 @@ const Navigation = () => {
                         >
                             Projects
                         </a>
-                        <a
-                            href="#case-studies"
-                            className={`nav-link ${activeSection === 'case-studies' ? 'active' : ''}`}
-                            onClick={(e) => { e.preventDefault(); scrollToSection('case-studies'); }}
-                        >
-                            Case Studies
-                        </a>
+
                         <a
                             href="#blogs"
                             className={`nav-link ${activeSection === 'blogs' ? 'active' : ''}`}
