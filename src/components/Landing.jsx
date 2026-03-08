@@ -28,7 +28,17 @@ const Landing = () => {
         <section id="landing" className="landing-section">
             <div className="content">
                 <button className="name-button" onClick={scrollToAbout}>
-                    <h1 className="name">Kartik Vegad</h1>
+                    <h1 className="name">
+                        {"Kartik Vegad".split("").map((char, index) => (
+                            <span
+                                key={index}
+                                className="letter"
+                                style={{ animationDelay: `${index * 0.1}s` }}
+                            >
+                                {char === " " ? "\u00A0" : char}
+                            </span>
+                        ))}
+                    </h1>
                 </button>
             </div>
         </section>
