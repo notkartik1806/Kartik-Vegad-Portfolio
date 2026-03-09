@@ -2,22 +2,16 @@ import { useEffect, useRef } from 'react';
 
 const About = () => {
     const downloadResume = (e) => {
-        // Add a subtle animation to the button
-        const resumeBtn = e.target;
-        resumeBtn.style.transform = 'scale(0.95)';
+    const resumeBtn = e.target;
+    resumeBtn.style.transform = 'scale(0.95)';
 
-        setTimeout(() => {
-            resumeBtn.style.transform = 'scale(1)';
-        }, 150);
+    setTimeout(() => {
+        resumeBtn.style.transform = 'scale(1)';
+    }, 150);
 
-        const link = document.createElement('a');
-        link.href = `${import.meta.env.BASE_URL}Resume - Kartik Vegad.pdf`;
-        link.download = "Kartik_Vegad_Resume.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
-
+    const resumeUrl = `${import.meta.env.BASE_URL}Resume - Kartik Vegad.pdf`;
+    window.open(resumeUrl, '_blank', 'noopener,noreferrer');
+};
     return (
         <section id="about" className="section">
             <div className="section-container">
