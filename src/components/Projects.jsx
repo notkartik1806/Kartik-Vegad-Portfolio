@@ -19,9 +19,7 @@ const Projects = () => {
                                 <img src={`${import.meta.env.BASE_URL}images/ProjectHappywinds.png`} alt="Happywinds" />
                             </div>
                             <h3 className="card-title">Happywinds</h3>
-                            <p className="card-description">
-                                Happywinds is a growing brand with a digital presence built to serve its audience with clarity and trust. I redesigned their website to enhance visual appeal, improve structure and create a more engaging user experience.
-                            </p>
+                            <p className="card-description">Redesigned the Happywinds website to improve visual appeal, structure and overall user experience while strengthening its clear and trustworthy digital presence.</p>
                         </div>
                     </a>
 
